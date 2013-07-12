@@ -92,7 +92,7 @@ class DateTimeWidget(MultiWidget):
         except ValueError:
             return ''
         else:
-            return str(D)
+            return D
 
     def decompress(self, value):
         if value:
